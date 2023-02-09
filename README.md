@@ -5,5 +5,8 @@ ola meu nome e guilherme😎
 
 eu estou interessado em aprender a programar novas linguagens
 
+programacao por amor👩‍💻 😍 
+
 link:
 
+ 😍 
