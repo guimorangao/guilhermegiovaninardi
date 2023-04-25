@@ -2,23 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
+    <title>css externo(formulario)-13,17,24</title>
+    <link rel="stylesheet" href="">
     <title>css externo(formulario)-13,17/04</title>
-    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="Formulariocss.css">
 </head>
 <body>
+    <header><!--cabecalho-->
     <header><!--meio-->
 
     </header>
     <main><!--meio-->
+        <section class="box">
         <section class="Box">
             <form>
-            <fieldset>
-                <legend><strong>Formulario de cliente</strong></legend>
-        
-        <br>
+                <fieldset>
+                    <legend><strong>Formulario de Cliente </strong></legend>
+                    <br><br>
         
                     <section class="inputBox">
                         <input type="text" name="nome" id="name" class="inputuser" required>
+                        <label for="name"  class="labelinput">Nome Completo
+
+                        </label>
+
                         <label for="name" class="labelinput">Nome Completo</label>
                     </section>
                     <br><br>
@@ -26,14 +33,17 @@
                     <selection class="inputBox">
                         <input type="text" name="email" id="email" class="inputuser" required placeholder="seuemail@dominio.com">
                         <label for="email" class="labelimput">Email</label>
+
+
+                    </selection>
                      </selection>
                     <br><br>
 
                     <selection class="inputBox">
                         <input type="tel" name="telefone" id="telefone" class="imputuser" required placeholder="(XX)XXXXX-XXXX"></input>
                         <label for="telefone" class="labelimput">Telefone</label>
+
                     </selection>
-                    <br><br>
 
                     <P>sexo:</P>
                     <input type="radio" name="genero" id="femenino" value="femenino"> 
@@ -41,48 +51,53 @@
                     <br>
 
                     <input type="radio" name="genero" id="masculino" value="masculino">
-                    <LABEL for="masculino">Masculino</LABEL>
+                    <label for="masculino">Masculino</label>
                     <br>
 
                     <input type="radio" name="genero" id="outro" value="outro">
-                    <label for="outro">outro</label>
+                    <label for="outro">Outro</label>
                     <br><br>
-                    
+
+                    <label for="data de nascimento"><strong>Ano de Nascimento</strong></label>
+                    <input type="date" name="data_nacimento" id="data_nacimento" required>
+                    <br><br>
+
+
+
                     <section class="inputBox">
                         <input type="text" name="cidade" id="cidade" class="inputUser" required>
                         <label for="cidade" class="labelinput">Cidade</label>
 
 
                     </section>
+                    
 
                     <br><br>
 
-                    <section>
+                    <section class="inputBox">
                         <input type="text" name="estado" id="estado" class="inputUser" required>
                         <label for="estado" class="labelinput">Estado</label>
                     </section>
-
                     <br><br>
 
+                     </section>
+
+                     <section class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                        <label for="endereco" class="labelinput">Endereco</label>
+                     </section>
+                    <br><br>
+
+                    <section class="inputBox">
+                        <input type="submit" valeu="Enviar Formulario" id="enviar"
+                    </section>
+
                 </fieldset>
-
-            </form>
-
-        </section>
-        <section>
-            <input type="text" name="endereco" id="endereco" class="inputUser" required>
-            <label for="endereco" class="labelinput">Endereco</label>
-        </section>
-    <section>
-        <br><br>
-
-        <input type="submit" valeu="Enviar Formulario" id="enviar"
-
-    </section>
-</fieldset>
         
     </form>
     </main>
+    <footer><!--rodape-->
+
     <footer><!--RODAPE-->
         <p class="copyrigth">&copy;copyright Guilherme Giovani-2023</p>
     </footer>
