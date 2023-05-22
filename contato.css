@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(248, 241, 230);
+    padding: 20px;
+}
+
+#logo{
+    border-radius: 10px;
+}
+
+.titulo-principal{
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top: 18%; 
+    left: 50%;
+    transform: translate(-30%, -15%);
+    font-size: 60px;
+    /*font-family:barlow;*/
+
+}
