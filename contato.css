@@ -1,19 +1,46 @@
 header{
-    background-color: rgb(248, 241, 230);
+    background-color:rgba(218, 200, 200, 0.648);
     padding: 20px;
 }
 
 #logo{
-    border-radius: 10px;
+    border-radius: 12px
 }
 
 .titulo-principal{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     position: absolute;
-    top: 18%; 
+    top: 13%;
     left: 50%;
-    transform: translate(-30%, -15%);
-    font-size: 60px;
-    /*font-family:barlow;*/
-
+    transform: translate(-50%, -30%);
+    font-size: 31px;
+    /*font-family: Barlow;*/
 }
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+
