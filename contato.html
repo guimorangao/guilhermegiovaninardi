@@ -3,35 +3,66 @@
     <head>
         <meta charset="utf-8">
         <title>contato22/05</title>
-        <link rel="stylesheet" href="contatto.css">
+        <link rel="stylesheet" href="contato.css">
         <link href="Anton-Regular.ttf" rel="stylesheet">
-        
+
     </head>
     <body>
         <header>
 
-            <img id="logo" src="Beige Black Modern Creative Studio Designer Typography Logo.png">
+            <img id="logo" src="logo.png">
             <h1 class="titulo-principal">Vendas De Livros</h1>
-            
+
         </header>
         <main>
             <form>
                 <label for="nomesobrenome">Nome e sobrenome:</label>
-                <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Seu Nome e Sobrenome" requered>
+                <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Seu Nome e Sobrenome" required>
                 <br><br>
 
                 <label for="seuemail">Seu Email:</label>
-                <input type="email" name="email" id="email" class="input-padrao" placeholder="Seuemail@seudominio.com" requered>
+                <input type="email" name="email" id="email" class="input-padrao" placeholder="Seuemail@seudominio.com" required>
                 <br><br>
 
                 <label for="telefone">Telefone:</label>
-                <input type="telefone" name="telefone" id="Telefone" class="input-padrao" placeholder="(XX)XXXX-XXXX" requered>
+                <input type="telefone" name="telefone" id="Telefone" class="input-padrao" placeholder="(XX)XXXX-XXXX" required>
+                <br><br>
 
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui!" required></textarea>
+
+                <section>
+                    <P>Como prefere nosso contato?</P>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                    <br>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+                </section>
+                <section>
+                    <p>Qual horario prefere ser atendido?</p>
+
+                    <select>
+                        <option>manha</option>
+                        <!--dropdown- selecoes selecionaveis-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                        <br><br>
+                    </select>
+                </section>
+                <br>
+                <label class="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                    <br><br>
+                <input type="submit" value="Enviar Formulario" class="enviar">
             </form>
+            
 
         </main>
-        <footer>
 
+        <footer>
+            <img id="logo1" src="logo.png">
+            <p class="copyright">&copy; copyright -- Guilherme Giovani</p>
         </footer>
     </body>
 </html>
