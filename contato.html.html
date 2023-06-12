@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>contato22/05</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contato.css">
+        <link href="Anton-Regular.ttf" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="logo.png">
+            <h1 class="titulo-principal">Vendas De Livros</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">contato</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                <section class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required >
+                    <label for="email" class="labelinput"><div style='text-align: centers;'>Email</div></label>
+                </section>
+
+                <section class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required >
+                    <label for="telefone" class="labelinput">Telefone</label>
+                </section>
+
+                <p>Sexo:</p>
+<section>
+                <input type="radio" name="genero" id="feminino" value="feminino" required>
+                <label for="feminino">Feminino</label>
+
+                <input type="radio" name="genero" id="masculino" value="masculino">
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" name="genero" id="outro" value="outro">
+                <label for="outro">Outro</label>
+
+                <label for="data_nascimento"><strong>Ano de Nascimento</strong></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+</section>
+                <section class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelinput">Cidade</label>
+                </section>
+
+                <section class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelinput">Estado</label>
+                </section>
+
+
+                <section class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelinput">Endereço</label>
+                </section>
+
+
+
+                </section>
+                <section>
+                    <P>Como prefere nosso contato?</P>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                    <br>
+                    <label for="radio-telefone"><input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp</label>
+                </section>
+                <section>
+                    <p>Qual horario prefere ser atendido?</p>
+                    <select>
+                        <option>manha</option>
+                        <!--dropdown- selecoes selecionaveis-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+
+                    </select>
+                </section>
+
+                <label class="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>
+        </fieldset>
+        </main>
+        <footer>
+            <img id="logo1" src="logo.png">
+            <p class="copyright">&copy; copyright -- Guilherme Giovani</p>
+        </footer>
+    </body>
+</html>
