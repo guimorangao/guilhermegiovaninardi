@@ -1,52 +1,53 @@
 header{
     background-color:rgb(142, 136, 136);
-    padding: 20px;
+    padding: 50px;
 }
 
 #logo{
     border-radius: 12px;
-
 }
 
 .titulo-principal{
-    font-family: ;
+    font-family: sans-serif;
     position: absolute;
-    top: 13%;
+    top: 5%;
     left: 50%;
     transform: translate(-10%,-50%);
-    font-size: 35px;
-    COLOR:#000000
-    COLOR: 0;
+    font-size: 40px;
+    COLOR:#635b5b
     text-shadow:
                 -1px -1px 0px #696969,
                 -1px 4px 0px #fff,
                 1px -1px 0px #fff,
-                1px 0px 0px #fff
+                1px 0px 0px #fff;
+                text-shadow: 0.1em 0.1em 0.2em black
 }
 
 nav{
     position: absolute;
-    top:180px;
+    top:90px;
     right: 50px;
 }
 
 nav li{
     display: inline;
     margin: 0 0 0 15px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0)
 }
 
 nav a{
     text-transform: uppercase;
-    color: #000000;
+    color: #7f8788;
     font-size: 22px;
     text-decoration: none;
     font-family: gagalin;
 }
 
 form label, form p{
-  
+
     transform: translate(-50%, -30%);
     font-size: 31px;
+    text-align: center;
     /*font-family: Barlow;*/
 }
 main{
@@ -55,6 +56,7 @@ main{
 }
 form{
     margin: 40px 0;
+    border: 1px solid #000000;
 }
 form label, form p{
     display: block;
@@ -69,11 +71,16 @@ form label, form p{
 }
 
 input::placeholder{
-    color:black
+    color:black;
+    text-align: center;
 }
 
 .checkbox{
     margin:10px 0;
+}
+.inputBox{
+    text-align: center;
+    border-radius: 15px;
 }
 
 .enviar{
@@ -83,15 +90,16 @@ input::placeholder{
     color: black;
     font-weight: bold;
     font-size: 18px;
-    border: none;
-    border-radius: 5px;
     transition: 4s all;
     cursor: pointer;
+    border-bottom: #000000;
+    border-radius: 15px;
 }
 
 .enviar:houver{
     background: darkgrey;
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .copyright{
@@ -110,4 +118,8 @@ footer{
     border-radius: 30px;
     width: 120px;
     height: 120px;
+}
+
+section{
+    text-align: center;
 }
