@@ -1,125 +1,131 @@
-header{
-    background-color:rgb(142, 136, 136);
-    padding: 50px;
-}
+header {
+    background: rgb(2,0,36);
+    background: rgb(158, 158, 158);
 
+}
 #logo{
-    border-radius: 12px;
-}
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
 
+}
 .titulo-principal{
-    font-family: sans-serif;
     position: absolute;
-    top: 5%;
+    top: 8%;
     left: 50%;
-    transform: translate(-10%,-50%);
-    font-size: 40px;
-    COLOR:#635b5b
+    transform: translate(-30%, -15%);
+    font-size: 35px;
+    font-family:'WrathStyles', sem serifa;
+    color: aliceblue;
+  /*A propriedade text-shadow acrescenta sombras ao texto. Ela aceita uma lista de sombras separadas por virula que serao aplicados ao texto e ao text-decoration do elemento*/
+    color:#000000;
     text-shadow:
-                -1px -1px 0px #696969,
-                -1px 4px 0px #fff,
-                1px -1px 0px #fff,
-                1px 0px 0px #fff;
-                text-shadow: 0.1em 0.1em 0.2em black
-}
+      -1px -1px 0px #ccc9c9,
+      -1px 4px 0px #ffffff,
+      1px -1px 0px #ffffff,
+      1px 0px 0px #ffffff;
+  /*font family: 'Gagalin', sem serifa:*/
 
+
+}
 nav{
-    position: absolute;
-    top:90px;
-    right: 50px;
+  position: absolute;
+  /* posicionamento dos links */
+  top: 150px;
+  right: 50px;
 }
-
 nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0)
-}
+  display: inline;
+  margin: 0 0 0 20px;
 
+}
 nav a{
-    text-transform: uppercase;
-    color: #7f8788;
-    font-size: 22px;
-    text-decoration: none;
-    font-family: gagalin;
+  text-transform: uppercase;
+  color:#373434;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: gagalin;
+}
+@font-face {
+    font-family:'WrathStyles', sem serifa ;
+    src:;
 }
 
-form label, form p{
-
-    transform: translate(-50%, -30%);
-    font-size: 31px;
-    text-align: center;
-    /*font-family: Barlow;*/
-}
 main{
     width: 940px;
     margin: auto;
 }
+
 form{
-    margin: 40px 0;
-    border: 1px solid #000000;
+    border-bottom: #000000;
+    margin: 40px 100px;
 }
+
 form label, form p{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+
 }
+
+#logo1{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(1,31,179,1) 35%, rgba(96,0,150,1) 100%);
+
+
+}
+.letra{
+    color: aliceblue;
+    text-align: center;
+}
+
 .input-padrao{
     display: block;
     margin: 0 0 20px;
-    padding: 10px 25px;
+    padding: 5px 15px;
+
     width: 50%;
 }
 
-input::placeholder{
-    color:black;
-    text-align: center;
-}
-
 .checkbox{
-    margin:10px 0;
-}
-.inputBox{
-    text-align: center;
-    border-radius: 15px;
+    margin: 20px 0;
 }
 
 .enviar{
     width: 40%;
     padding: 15px 0;
-    background: rgb(142, 136, 136);
-    color: black;
+    background: rgb(186, 184, 186);
+    color: rgb(0, 0, 0); 
     font-weight: bold;
-    font-size: 18px;
-    transition: 4s all;
-    cursor: pointer;
-    border-bottom: #000000;
-    border-radius: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer; 
 }
 
-.enviar:houver{
-    background: darkgrey;
+.enviar:hover{
+    background: rgb(186, 184, 186);
     transform: scale(1.2);
-    cursor: pointer;
 }
 
 .copyright{
-    color: ffffff;
+    color: rgb(0, 0, 0);
     font-size: 13px;
-    margin: 10px 0;
+    margin: 10px 0 0;
 }
 
 footer{
-    background-color: rgb(142, 136, 136);
     text-align: center;
-    padding: 12px 0;
+    background-image: url("");
+    padding: 10px 0;
+    background-color: rgb(158, 158, 158);
 }
 
-#logo1{
-    border-radius: 30px;
-    width: 120px;
-    height: 120px;
-}
-
-section{
-    text-align: center;
+fieldset{
+    
 }
