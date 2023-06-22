@@ -1,0 +1,72 @@
+header {
+    background: rgb(2,0,36);
+    background: rgb(158, 158, 158);
+
+}
+
+#logo{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-30%, -15%);
+    font-size: 35px;
+    font-family:'WrathStyles', sem serifa;
+    color: aliceblue;
+  /*A propriedade text-shadow acrescenta sombras ao texto. Ela aceita uma lista de sombras separadas por virula que serao aplicados ao texto e ao text-decoration do elemento*/
+    color:#000000;
+    text-shadow:
+      -1px -1px 0px #ccc9c9,
+      -1px 4px 0px #ffffff,
+      1px -1px 0px #ffffff,
+      1px 0px 0px #ffffff;
+  /*font family: 'Gagalin', sem serifa:*/
+
+
+}
+
+nav{
+    position: absolute;
+    /* posicionamento dos links */
+    top: 150px;
+    right: 50px;
+  }
+
+  nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+  
+  }
+  nav a{
+    text-transform: uppercase;
+    color:#373434;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: gagalin;
+  }
+  
+
+  footer{
+    text-align: center;
+    background-image: url("");
+    padding: 10px 0;
+    background-color: rgb(158, 158, 158);
+}
+
+.copyright{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+#logo1{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
